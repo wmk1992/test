@@ -1,0 +1,34 @@
+<!--pages/game/lightOn.wxml-->
+  <text class="title">{{title}}</text>
+  <text> 计步：{{count}}</text>
+  <text class="titleright">计时：{{time}}</text>
+  <button bindtap="restart" type="primary" size="default" >重新开始</button>  
+
+<view class="container">
+    <view class="table">
+        <view class="tr">
+            <view id='1' class="{{cs[1]}}" bindtap='touch'></view>
+            <view id='2' class="{{cs[2]}}" bindtap='touch'></view>
+            <view id='3' class="{{cs[3]}}" bindtap='touch'></view>
+            <view id='4' class="{{cs[4]}}" bindtap='touch'></view>
+        </view>
+        <view class="tr">
+            <view id='5' class="{{cs[5]}}" bindtap='touch'></view>
+            <view id='6' class="{{cs[6]}}" bindtap='touch'></view>
+            <view id='7' class="{{cs[7]}}" bindtap='touch'></view>
+            <view id='8' class="{{cs[8]}}" bindtap='touch'></view>
+        </view>
+        <view class="tr">
+            <view id='9' class="{{cs[9]}}" bindtap='touch'></view>
+            <view id='10' class="{{cs[10]}}" bindtap='touch'></view>
+            <view id='11' class="{{cs[11]}}" bindtap='touch'></view>
+            <view id='12' class="{{cs[12]}}" bindtap='touch'></view>
+        </view>
+        <view class="tr">
+            <view id='13' class="{{cs[13]}}" bindtap='touch'></view>
+            <view id='14' class="{{cs[14]}}" bindtap='touch'></view>
+            <view id='15' class="{{cs[15]}}" bindtap='touch'></view>
+            <view id='16' class="{{cs[16]}}" bindtap='touch'></view>
+        </view>
+    </view>
+</view>

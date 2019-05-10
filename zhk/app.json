@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/game1/lightOn",
+    "pages/game2/lightOn",
+    "pages/game3/lightOn",
+    "pages/game4/lightOn",
+    "pages/game5/lightOn"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "消除黑块",
+    "navigationBarTextStyle":"black"
+  }
+}
